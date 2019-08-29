@@ -1,5 +1,75 @@
 export const photos = [
     {
+      src: "./images/interior/Autonomy-interior-Option-2-birdseye.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/interior/JetExpo-interior1.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/interior/Jetex-interior2.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/interior/Kroll-OnTrack-interior-bird.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/interior/Kroll-OnTrack-interior-view2.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/interior/room-interior.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/interior/Ziehm-40x50-interior.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/wall.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/overall-no-marquee.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/exhibit-bird.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/exhibit.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/SHOF-view4.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/SHOF-view3.jpg",
+      width: 16,
+      height: 9
+    },
+    {
+      src: "./images/SHOF-game-console.jpg",
+      width: 16,
+      height: 9
+    },
+    {
       src: "./images/AAPM-20x40-birdseye.jpg",
       width: 16,
       height: 9

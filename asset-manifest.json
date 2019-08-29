@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/orlandocarnate/3dportfolio/static/js/main.eeefc6ab.chunk.js",
+    "main.js.map": "/orlandocarnate/3dportfolio/static/js/main.eeefc6ab.chunk.js.map",
+    "runtime~main.js": "/orlandocarnate/3dportfolio/static/js/runtime~main.6b29c7a3.js",
+    "runtime~main.js.map": "/orlandocarnate/3dportfolio/static/js/runtime~main.6b29c7a3.js.map",
+    "static/js/2.c1c86385.chunk.js": "/orlandocarnate/3dportfolio/static/js/2.c1c86385.chunk.js",
+    "static/js/2.c1c86385.chunk.js.map": "/orlandocarnate/3dportfolio/static/js/2.c1c86385.chunk.js.map",
+    "index.html": "/orlandocarnate/3dportfolio/index.html",
+    "precache-manifest.3909c154b838509ad480ef2117760b83.js": "/orlandocarnate/3dportfolio/precache-manifest.3909c154b838509ad480ef2117760b83.js",
+    "service-worker.js": "/orlandocarnate/3dportfolio/service-worker.js"
+  }
+}

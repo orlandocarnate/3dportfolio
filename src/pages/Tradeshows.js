@@ -2,7 +2,7 @@
 import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "../components/renderings-tradeshows";
+import photos from "../components/renderings-tradeshows";
 
 function Tradeshows() {
     const [currentImage, setCurrentImage] = useState(0);

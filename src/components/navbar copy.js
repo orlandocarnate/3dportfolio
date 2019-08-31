@@ -10,6 +10,16 @@ function NavBar() {
 
             <div className="collapse navbar-collapse" id="navbarColor01">
                 <ul className="navbar-nav mr-auto">
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Renderings</a>
+                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a className="dropdown-item" href="/Tradeshows">Tradeshows & Exhibits</a>
+                            <a className="dropdown-item" href="/Architecture">Architecture</a>
+                            <div className="dropdown-divider"></div>
+                            <a className="dropdown-item disabled" href="#">Animations</a>
+                        </div>
+                    </li>
                     <li className="nav-item">
                         <a className="nav-link" href="https://orlandocarnate.com">Developer Page<span className="sr-only"></span></a>
                     </li>

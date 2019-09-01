@@ -20,17 +20,18 @@ function NavBar() {
                             <a className="dropdown-item disabled" href="/">Animations</a>
                         </div>
                     </li>
+                    <li className="nav-item"> <a className="nav-link disabled text-white">External Sites: </a></li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://orlandocarnate.com">Developer Page<span className="sr-only"></span></a>
+                        <a className="nav-link" href="https://orlandocarnate.com" target="_blank">Developer Portfolio<span className="sr-only"></span></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://carnate3d.wordpress.com">Blog</a>
+                        <a className="nav-link" href="https://carnate3d.wordpress.com" target="_blank">Blog</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://www.linkedin.com/in/orlando-carnate/">LinkedIn</a>
+                        <a className="nav-link" href="https://www.linkedin.com/in/orlando-carnate/" target="_blank">LinkedIn</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://github.com/orlandocarnate">GitHub</a>
+                        <a className="nav-link" href="https://github.com/orlandocarnate" target="_blank">GitHub</a>
                     </li>
                 </ul>
 

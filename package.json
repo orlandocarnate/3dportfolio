@@ -1,5 +1,5 @@
 {
-  "homepage": "https://carnate3d.com",
+  "homepage": "https://3d.orlandocarnate.com",
   "name": "reactgallery",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,8 @@
     "react-images": "^1.0.0",
     "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "react-unity-webgl": "^7.1.7"
   },
   "scripts": {
     "start": "react-scripts start",

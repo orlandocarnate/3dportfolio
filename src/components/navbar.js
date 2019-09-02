@@ -3,7 +3,7 @@ import React from "react";
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a className="navbar-brand" href="/3dportfolio/">Orlando Carnate's 3D Portfolio</a>
+            <a className="navbar-brand" href="{`${process.env.PUBLIC_URL}/`}">Orlando Carnate's 3D Portfolio</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -14,10 +14,10 @@ function NavBar() {
                         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Renderings</a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a className="dropdown-item" href="/3dportfolio/Tradeshows">Tradeshows & Exhibits</a>
-                            <a className="dropdown-item" href="/3dportfolio/Architecture">Architecture</a>
+                            <a className="dropdown-item" href={`${process.env.PUBLIC_URL}/Tradeshows`}>Tradeshows & Exhibits</a>
+                            <a className="dropdown-item" href={`${process.env.PUBLIC_URL}/Architecture`}>Architecture</a>
                             <div className="dropdown-divider"></div>
-                            <a className="dropdown-item disabled" href="/">Animations</a>
+                            <a className="dropdown-item disabled" href={`${process.env.PUBLIC_URL}/Animations`}>Animations</a>
                         </div>
                     </li>
                     <li className="nav-item"> <a className="nav-link disabled text-white">External Sites: </a></li>

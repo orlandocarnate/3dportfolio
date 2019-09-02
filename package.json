@@ -1,10 +1,11 @@
 {
-  "homepage": "https://orlandocarnate.com/3dportfolio/",
+  "homepage": "/3dportfolio/",
   "name": "reactgallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
+    "history": "^4.9.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-images": "^1.0.0",

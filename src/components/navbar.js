@@ -14,8 +14,8 @@ function NavBar() {
                         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Renderings</a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a className="dropdown-item" href="/Tradeshows">Tradeshows & Exhibits</a>
-                            <a className="dropdown-item" href="/Architecture">Architecture</a>
+                            <a className="dropdown-item" href="/3dportfolio/Tradeshows">Tradeshows & Exhibits</a>
+                            <a className="dropdown-item" href="/3dportfolio/Architecture">Architecture</a>
                             <div className="dropdown-divider"></div>
                             <a className="dropdown-item disabled" href="/">Animations</a>
                         </div>

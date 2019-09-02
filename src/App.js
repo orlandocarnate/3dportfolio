@@ -8,13 +8,13 @@ import Tradeshows from "./pages/Tradeshows";
 
 function App() {
   return (
-    <Router basename={'/3dportfolio'}>
+    <Router basename={'/directory-name'}>
       <div className="container">
       <NavBar />
         <Switch>
-          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
-          <Route path={`${process.env.PUBLIC_URL}/Architecture`} component={Architecture} />
-          <Route path={`${process.env.PUBLIC_URL}/Tradeshows`} component={Tradeshows} />
+          <Route exact path="/3dportfolio/" component={Home} />
+          <Route path="/3dportfolio/Architecture" component={Architecture} />
+          <Route path="/3dportfolio/Tradeshows" component={Tradeshows} />
         </Switch>
 
       </div>

@@ -22,16 +22,16 @@ function NavBar() {
                     </li>
                     <li className="nav-item"> <a className="nav-link disabled text-white">External Sites: </a></li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://orlandocarnate.com" target="_blank">Developer Portfolio<span className="sr-only"></span></a>
+                        <a className="nav-link" href="https://carnate3d.wordpress.com" target="_blank"><i className="fab fa-wordpress"></i> Blog</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://carnate3d.wordpress.com" target="_blank">Blog</a>
+                        <a className="nav-link" href="https://orlandocarnate.com" target="_blank"><i className="fas fa-globe"></i> Developer Portfolio</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://www.linkedin.com/in/orlando-carnate/" target="_blank">LinkedIn</a>
+                        <a className="nav-link" href="https://www.linkedin.com/in/orlando-carnate/" target="_blank"><i className="fab fa-linkedin"></i> LinkedIn</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://github.com/orlandocarnate" target="_blank">GitHub</a>
+                        <a className="nav-link" href="https://github.com/orlandocarnate" target="_blank"><i className="fab fa-github"></i>GitHub</a>
                     </li>
                 </ul>
 

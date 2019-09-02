@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import { createBrowserHistory } from 'history';
 import NavBar from "./components/navbar";
 import Home from "./pages/Home";
@@ -8,17 +8,17 @@ import Tradeshows from "./pages/Tradeshows";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename='/'>
       <div className="container">
       <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/Architecture" component={Architecture} />
-          <Route exact path="/Tradeshows" component={Tradeshows} />
+          <Route path="/Architecture" component={Architecture} />
+          <Route path="/Tradeshows" component={Tradeshows} />
         </Switch>
 
       </div>
-    </Router>
+    </HashRouter>
     // <div className="container">
     //   <section>
     //     <Gallery photos={photos} onClick={openLightbox} />

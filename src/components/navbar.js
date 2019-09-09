@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a className="navbar-brand" href="./">Orlando Carnate's 3D Portfolio</a>
+            <Link className="navbar-brand" href="./">Orlando Carnate's 3D Portfolio</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -23,16 +23,16 @@ function NavBar() {
                     </li>
                     <li className="nav-item"> <a className="nav-link disabled text-white">External Sites: </a></li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://carnate3d.wordpress.com" target="_blank"><i className="fab fa-wordpress"></i> Blog</a>
+                        <Link className="nav-link" href="https://blog.orlandocarnate.com" target="_blank"><i className="fab fa-wordpress"></i> Blog</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://orlandocarnate.com" target="_blank"><i className="fas fa-globe"></i> Developer Portfolio</a>
+                        <Link className="nav-link" href="https://orlandocarnate.com" target="_blank"><i className="fas fa-globe"></i> Developer Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://www.linkedin.com/in/orlando-carnate/" target="_blank"><i className="fab fa-linkedin"></i> LinkedIn</a>
+                        <Link className="nav-link" href="https://www.linkedin.com/in/orlando-carnate/" target="_blank"><i className="fab fa-linkedin"></i> LinkedIn</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://github.com/orlandocarnate" target="_blank"><i className="fab fa-github"></i>GitHub</a>
+                        <Link className="nav-link" href="https://github.com/orlandocarnate" target="_blank"><i className="fab fa-github"></i>GitHub</Link>
                     </li>
                 </ul>
 

@@ -15,8 +15,8 @@ function NavBar() {
                         <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Renderings</a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <Link className="dropdown-item" to="/Tradeshows">Tradeshows & Exhibits</Link>
                             <Link className="dropdown-item" to="/Architecture">Architecture</Link>
+                            <Link className="dropdown-item" to="/Tradeshows">Tradeshows & Exhibits</Link>
                             <li className="nav-item">
                                 <a className="nav-link text-white" href="https://www.youtube.com/playlist?list=PLv0bey_3GrtIx5w71fSIR25fJ38iyN_11" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-youtube"></i> Animations

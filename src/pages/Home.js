@@ -32,6 +32,18 @@ function Home() {
                 </div>
             </div>
 
+            <div class="col-6 d-flex align-items-stretch">
+                <div class="portfolio-card">
+                    <a href="https://www.youtube.com/playlist?list=PLv0bey_3GrtIx5w71fSIR25fJ38iyN_11" target="_blank" class="btn btn-primary">
+                        <h5>Animations (view on <i className="fab fa-youtube"></i>Youtube)</h5>
+                        <img class="img-responsive portfolio-img" src='./images/sun-nuclear-480px.gif' />
+                        <div class="mb-2 text-center">
+                            <p>A video playlist of my animations, modeled and rendered in 3DS Max and Twinmotion.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
 
          </div>
         )

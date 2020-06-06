@@ -23,9 +23,12 @@ function NavBar() {
                     </li>
                     <li className="nav-item"> <a className="nav-link disabled text-white">External Sites: </a></li>
                     <li className="nav-item">
+                        <a className="nav-link" href="https://www.youtube.com/playlist?list=PLv0bey_3GrtIx5w71fSIR25fJ38iyN_11" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i> Animations</a>
+                    </li>
+                    <li className="nav-item d-none">
                         <a className="nav-link" href="https://blog.orlandocarnate.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-wordpress"></i> Blog</a>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item d-none">
                         <a className="nav-link" href="https://orlandocarnate.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-globe"></i> Developer Portfolio</a>
                     </li>
                     <li className="nav-item">

@@ -1,0 +1,16 @@
+[
+  {
+    "Title": "Architectural Renderings",
+    "src": "./images/architectural/Comfort-Inn-Exterior-2020.jpg",
+    "width": 16,
+    "height": 9,
+    "link": "./Architecture"
+  },
+  {
+    "Title": "Tradeshow Renderings",
+    "src": "./images/OpenText-HIMSS-20x20-B-right-corner-view.jpg",
+    "width": 16,
+    "height": 9,
+    "link": "./Tradeshows"
+  }
+]

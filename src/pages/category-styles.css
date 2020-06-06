@@ -1,0 +1,33 @@
+.portfolio-card {
+    /*border-top-color: #009f86;*/
+    /*border-top-style: solid;*/
+    border-top-width: 10px;
+    /*background-color: dimgray;*/
+    /* background-image: url('../images/altitude-astrology-astronomy-1819650.jpg'); */
+    background-position: center;
+    background-size: auto 100%;
+    padding: 20px;
+    /*border-radius: 0px 0px 5px 5px;*/
+    /* color: white; */
+    /*box-shadow: 3px 3px 5px rgb(122, 122, 122);*/
+}
+
+.portfolio-img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 480px) {
+    .portrait {
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .aboutme {
+        text-align: center;
+    }
+
+    .aboutme, .contact-info {
+        /* font-size: .8em; */
+    }
+}

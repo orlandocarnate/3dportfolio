@@ -1,7 +1,7 @@
 [
     {
       "url": "https://orlandocarnate.com/iss-tracker/",
-      "image": "./images/threejs/isstracker.png",
+      "image": "./images/threejs/isstracker.jpg",
       "width": 16,
       "height": 9,
       "title": "ISS Tracker",
@@ -9,7 +9,7 @@
     },
     {
       "url": "http://orlandocarnate.com/threejs-shader-demo/",
-      "image": "./images/threejs/custom-shader-raging-sea.png",
+      "image": "./images/threejs/custom-shader-raging-sea.jpg",
       "width": 16,
       "height": 9,
       "title": "Custom Shader Demo",

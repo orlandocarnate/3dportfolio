@@ -1,0 +1,19 @@
+[
+    {
+      "url": "https://orlandocarnate.com/iss-tracker/",
+      "image": "./images/threejs/isstracker.png",
+      "width": 16,
+      "height": 9,
+      "title": "ISS Tracker",
+      "description": "ISS modeled in 3DS Max to GLTF. Custom Vertex and Fragment GLSL shaders for the Earth's atmospheric glow."
+    },
+    {
+      "url": "http://orlandocarnate.com/threejs-shader-demo/",
+      "image": "./images/threejs/custom-shader-raging-sea.png",
+      "width": 16,
+      "height": 9,
+      "title": "Custom Shader Demo",
+      "description": "A simple THREE.JS plane made into a raging sea using custom GLSL Shaders. Tutorial from Threejs-journey.xyz"
+    }
+  ]
+  

@@ -12,6 +12,11 @@
     /*box-shadow: 3px 3px 5px rgb(122, 122, 122);*/
 }
 
+.card {
+    background: #2A9FD6;
+    border: 0;
+}
+
 .portfolio-img {
     width: 100%;
     margin-bottom: 15px;

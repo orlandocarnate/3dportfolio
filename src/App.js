@@ -5,14 +5,18 @@ import NavBar from "./components/navbar";
 import Home from "./pages/Home";
 import Architecture from "./pages/Architecture";
 import Tradeshows from "./pages/Tradeshows";
+import Threejs from './pages/Threejs';
+import VRTours from './pages/VirtualTours';
 
 function App() {
   return (
     <HashRouter basename='/'>
-      <div className="container">
       <NavBar />
+      <div className="container">
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route path="/Threejs" component={Threejs} />
+          <Route path="/VRTours" component={VRTours} />
           <Route path="/Architecture" component={Architecture} />
           <Route path="/Tradeshows" component={Tradeshows} />
         </Switch>

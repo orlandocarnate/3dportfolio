@@ -8,6 +8,14 @@
       "description": "ISS modeled in 3DS Max to GLTF. Custom Vertex and Fragment GLSL shaders for the Earth's atmospheric glow."
     },
     {
+      "url": "https://orlandocarnate.com/japanese_garden/",
+      "image": "./images/threejs/japanese_garden.jpg",
+      "width": 16,
+      "height": 9,
+      "title": "Japanese Garden",
+      "description": "Inspired by a recent trip to Chicago's Japanese Garden. Modeled in 3DS Max. UV Mapping and Texture Baking in Blender, then exported to GLTF. Custom Vertex and Fragment GLSL shaders for the water, portal, ad fireflies. Based off from Bruno Simon's Three.js Journey course."
+    },
+    {
       "url": "http://orlandocarnate.com/threejs-shader-demo/",
       "image": "./images/threejs/custom-shader-raging-sea.jpg",
       "width": 16,

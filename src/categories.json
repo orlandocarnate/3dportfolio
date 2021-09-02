@@ -1,52 +1,58 @@
 [
-    {
-      "page": "./#/Threejs",
-      "title": "Three.js Projects",
-      "image": "./images/category-isstracker.jpg",
-      "width": 16,
-      "height": 9,
-      "description": "Interactive 3D models developed with the Three.js framework."
-    },
-    {
-      "page": "https://youtube.com/playlist?list=PLv0bey_3GrtI6Dcr5oUqkjlnxiiRPWL6T",
-      "title": "Virtual/Augmented Reality",
-      "image": "./images/augmented-reality.JPG",
-      "width": 16,
-      "height": 9,
-      "description": "Video captures of a few VR/AR demos made with Unity and 3DSMax."
-    },
-    {
-      "page": "./#/VRTours",
-      "title": "Virtual Tours",
-      "image": "./images/vrtours/Collins-FTE.jpg",
-      "width": 16,
-      "height": 9,
-      "description": "360 interactive panoramas modeled and rendered in 3DS Max, Twinmotion, and Unreal."
-    },
-    {
-      "page": "https://www.youtube.com/playlist?list=PLv0bey_3GrtIx5w71fSIR25fJ38iyN_11",
-      "title": "Animated Walkthroughs",
-      "image": "./images/sun-nuclear-480px.gif",
-      "width": 16,
-      "height": 9,
-      "description": "A video playlist of my animations, modeled and rendered in 3DS Max and Twinmotion."
-    },
-    {
-      "page": "./#/Architecture",
-      "title": "Architectural Renderings",
-      "image": "./images/architectural/Comfort-Inn-Exterior-2020.jpg",
-      "width": 16,
-      "height": 9,
-      "description": "Modeled and rendered in 3DS Max, Twinmotion."
-    },
-    {
-      "page": "./#/Tradeshows",
-      "title": "Tradeshow Renderings",
-      "image": "./images/Plum-30x30-view2.jpg",
-      "width": 16,
-      "height": 9,
-      "description": "Modeled and rendered in 3DS Max."
-    }
-
-  ]
-  
+  {
+    "page": "./#/Threejs",
+    "title": "Three.js Projects",
+    "image": "./images/category-isstracker.jpg",
+    "width": 16,
+    "height": 9,
+    "description": "Interactive 3D models developed with the Three.js framework."
+  },
+  {
+    "page": "https://youtube.com/playlist?list=PLv0bey_3GrtI6Dcr5oUqkjlnxiiRPWL6T",
+    "title": "Virtual/Augmented Reality",
+    "image": "./images/augmented-reality.JPG",
+    "width": 16,
+    "height": 9,
+    "description": "Video captures of a few VR/AR demos made with Unity and 3DSMax."
+  },
+  {
+    "page": "./#/VRTours",
+    "title": "Virtual Tours",
+    "image": "./images/vrtours/Collins-FTE.jpg",
+    "width": 16,
+    "height": 9,
+    "description": "360 interactive panoramas modeled and rendered in 3DS Max, Twinmotion, and Unreal."
+  },
+  {
+    "page": "https://www.youtube.com/playlist?list=PLv0bey_3GrtIx5w71fSIR25fJ38iyN_11",
+    "title": "Animated Walkthroughs",
+    "image": "./images/sun-nuclear-480px.gif",
+    "width": 16,
+    "height": 9,
+    "description": "A video playlist of my animations, modeled and rendered in 3DS Max and Twinmotion."
+  },
+  {
+    "page": "./#/Architecture",
+    "title": "Architectural Renderings",
+    "image": "./images/architectural/Comfort-Inn-Exterior-2020.jpg",
+    "width": 16,
+    "height": 9,
+    "description": "Modeled and rendered in 3DS Max, Twinmotion."
+  },
+  {
+    "page": "./#/Tradeshows",
+    "title": "Tradeshow Renderings",
+    "image": "./images/Plum-30x30-view2.jpg",
+    "width": 16,
+    "height": 9,
+    "description": "Modeled and rendered in 3DS Max."
+  },
+  {
+    "page": "./#/Products",
+    "title": "Product Renderings",
+    "image": "./images/products/machining_tools.jpg",
+    "width": 16,
+    "height": 9,
+    "description": "Modeled and rendered in 3DS Max."
+  }
+]

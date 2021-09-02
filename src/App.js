@@ -1,16 +1,17 @@
 import React from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import { createBrowserHistory } from 'history';
+import { createBrowserHistory } from "history";
 import NavBar from "./components/navbar";
 import Home from "./pages/Home";
 import Architecture from "./pages/Architecture";
 import Tradeshows from "./pages/Tradeshows";
-import Threejs from './pages/Threejs';
-import VRTours from './pages/VirtualTours';
+import Threejs from "./pages/Threejs";
+import VRTours from "./pages/VirtualTours";
+import Products from "./pages/Products";
 
 function App() {
   return (
-    <HashRouter basename='/'>
+    <HashRouter basename="/">
       <NavBar />
       <div className="container">
         <Switch>
@@ -19,8 +20,8 @@ function App() {
           <Route path="/VRTours" component={VRTours} />
           <Route path="/Architecture" component={Architecture} />
           <Route path="/Tradeshows" component={Tradeshows} />
+          <Route path="/Products" component={Products} />
         </Switch>
-
       </div>
     </HashRouter>
     // <div className="container">
@@ -44,12 +45,11 @@ function App() {
 
     //   </section>
     // </div>
-
   );
 }
 
 export default App;
 
 export const history = createBrowserHistory({
-  basename: process.env.PUBLIC_URL
+  basename: process.env.PUBLIC_URL,
 });

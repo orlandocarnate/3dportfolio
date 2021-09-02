@@ -1,0 +1,22 @@
+[
+  {
+    "src": "./images/products/clarin_seating_noPad_E2.jpg",
+    "width": 10,
+    "height": 12
+  },
+  {
+    "src": "./images/products/clarin_seating_Padded_E2.jpg",
+    "width": 10,
+    "height": 12
+  },
+  {
+    "src": "./images/products/machining_tools.jpg",
+    "width": 4,
+    "height": 3
+  },
+  {
+    "src": "./images/products/Vespa_model_study.jpg",
+    "width": 4,
+    "height": 3
+  }
+]

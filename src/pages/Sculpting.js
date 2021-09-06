@@ -2,9 +2,9 @@
 import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import photos from "../components/renderings-product";
+import photos from "../components/sculpting.json";
 
-function Products() {
+function Sculpting() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
@@ -40,4 +40,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default Sculpting;

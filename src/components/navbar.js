@@ -14,7 +14,7 @@ function NavBar() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="container-fluid">
           <Nav.Link href="./#/">Home</Nav.Link>
-          <Nav.Link href="./#/Threejs">Three.js Projects</Nav.Link>
+          {/* <Nav.Link href="./#/Threejs">Three.js Projects</Nav.Link>
           <Nav.Link href="https://youtube.com/playlist?list=PLv0bey_3GrtI6Dcr5oUqkjlnxiiRPWL6T">
             <i className="fab fa-youtube"></i> VR/AR Demos
           </Nav.Link>
@@ -24,7 +24,7 @@ function NavBar() {
           <Nav.Link href="./#/VRTours">VR Tours</Nav.Link>
           <Nav.Link href="./#/Architecture">Architecture</Nav.Link>
           <Nav.Link href="./#/Tradeshows">Tradeshows & Exhibits</Nav.Link>
-          <Nav.Link href="./#/Products">Products</Nav.Link>
+          <Nav.Link href="./#/Products">Products</Nav.Link> */}
         </Nav>
         <Nav>
           <Nav.Link

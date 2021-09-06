@@ -8,6 +8,7 @@ import Tradeshows from "./pages/Tradeshows";
 import Threejs from "./pages/Threejs";
 import VRTours from "./pages/VirtualTours";
 import Products from "./pages/Products";
+import Sculpting from './pages/Sculpting';
 
 function App() {
   return (
@@ -21,30 +22,11 @@ function App() {
           <Route path="/Architecture" component={Architecture} />
           <Route path="/Tradeshows" component={Tradeshows} />
           <Route path="/Products" component={Products} />
+          <Route path="/Sculpting" component={Sculpting} />
         </Switch>
       </div>
     </HashRouter>
-    // <div className="container">
-    //   <section>
-    //     <Gallery photos={photos} onClick={openLightbox} />
 
-    //     <ModalGateway>
-    //       {viewerIsOpen ? (
-    //         <Modal onClose={closeLightbox}>
-    //           <Carousel
-    //             currentIndex={currentImage}
-    //             views={photos.map(x => ({
-    //               ...x,
-    //               srcset: x.srcSet,
-    //               caption: x.title
-    //             }))}
-    //           />
-    //         </Modal>
-    //       ) : null}
-    //     </ModalGateway>
-
-    //   </section>
-    // </div>
   );
 }
 

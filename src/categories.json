@@ -54,5 +54,13 @@
     "width": 16,
     "height": 9,
     "description": "Modeled and rendered in 3DS Max."
+  },
+  {
+    "page": "./#/Sculpting",
+    "title": "3D Sculpting Training",
+    "image": "./images/sculpting/dungeon-door-rendering.jpg",
+    "width": 16,
+    "height": 9,
+    "description": "Learning how to modeled and render in Blender"
   }
 ]
